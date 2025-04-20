@@ -545,7 +545,7 @@ app = FastAPI(title="Website Summarizer API",description="API for summarizing we
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with specific origins
+    allow_origins=["https://website-summarization-chatbot-frontend.vercel.app"],  # In production, replace with specific origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

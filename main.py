@@ -696,6 +696,3 @@ async def get_schemas():
     }
     return schemas
 
-# Run the server if this script is executed directly
-import uvicorn
-uvicorn.run(app)
